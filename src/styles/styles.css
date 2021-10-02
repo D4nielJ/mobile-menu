@@ -46,8 +46,14 @@ button {
   padding: 0.3rem;
 }
 
-.burguer-icon {
+.burguer-icon,
+.x-icon {
   cursor: pointer;
+}
+
+.x-icon--hidden,
+.burguer-icon--hidden {
+  display: none;
 }
 
 .nav-menu {
