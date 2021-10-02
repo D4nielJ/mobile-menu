@@ -1,4 +1,4 @@
-const menuIcons = document.querySelector('icon-container');
+const menuIcons = document.querySelector('.icon-container');
 const burguerIcon = document.querySelector('.burguer-icon');
 const closeIcon = document.querySelector('.x-icon');
 const navMenu = document.querySelector('.nav-menu');
