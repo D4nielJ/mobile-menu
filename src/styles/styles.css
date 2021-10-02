@@ -7,3 +7,25 @@
   margin: 0;
   padding: 0;
 }
+
+html {
+  font-family: 'Poppins', sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+.display-font {
+  font-family: 'Playfair Display', serif;
+}
+
+.container {
+  padding: 0 2rem;
+}
