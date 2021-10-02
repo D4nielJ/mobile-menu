@@ -29,3 +29,23 @@ li {
 .container {
   padding: 0 2rem;
 }
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem 0;
+}
+
+.icon-container {
+  width: 3rem;
+  height: 3rem;
+  padding: 0.3rem;
+}
+
+.burguer-icon {
+  cursor: pointer;
+}
+
+.nav-menu {
+  display: none;
+}
