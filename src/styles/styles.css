@@ -22,6 +22,10 @@ li {
   list-style: none;
 }
 
+button {
+  border: none;
+}
+
 .display-font {
   font-family: 'Playfair Display', serif;
 }
@@ -48,4 +52,39 @@ li {
 
 .nav-menu {
   display: none;
+}
+
+.home-section {
+  padding-top: 10.4rem;
+}
+
+.home-section > h1 {
+  position: relative;
+  left: -0.5rem;
+  font-size: 5rem;
+  font-weight: 400;
+  line-height: 5rem;
+  letter-spacing: 0;
+  padding-bottom: 2rem;
+}
+
+.home-section > p {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2.1rem;
+  letter-spacing: -0.01em;
+  padding-bottom: 4rem;
+}
+
+.home-section > button {
+  width: 100%;
+  background: #1a2236;
+  color: #fff;
+  padding: 1.2rem 4rem;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: center;
 }
