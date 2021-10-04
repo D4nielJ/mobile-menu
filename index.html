@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/styles/styles.css" />
+    <title>My portfolio</title>
+  </head>
+  <body>
+    <div class="top-decoration">
+      <img src="./static/img/home-section-bg.svg" alt="" />
+    </div>
+    <div class="header">
+      <div class="container">
+        <div class="navbar">
+          <div class="icon-container">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="burguer-icon"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"
+              />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="x-icon x-icon--hidden"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M6 18L18 6M6 6l12 12"
+              />
+            </svg>
+          </div>
+          <div class="nav-menu">
+            <ul>
+              <li><a href="#home-section">Home</a></li>
+              <li><a href="#projects-section">Portfolio</a></li>
+              <li>About</li>
+              <li>Contact</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="main" class="container">
+      <div id="home-section" class="home-section">
+        <h1 class="display-font">Charlie Giorgania</h1>
+        <p>
+          Hello! I am a software developer! I can help you build a product,
+          feature or website. Taka a look of my works. If you like what you see
+          and have a project you need coded, don’t hesitate and contact me.
+        </p>
+        <button type="button">Start collaboration</button>
+        <div class="home-section-bg"></div>
+      </div>
+      <div class="home-decoration">
+        <img class="home-decoration__img" src="./static/img/Thur.png" alt="" />
+      </div>
+      <div id="projects-section" class="projects-section">
+        <h2 class="display-font">Projects</h2>
+      </div>
+    </div>
+
+    <script src="./src/scripts/index.js"></script>
+  </body>
+</html>
